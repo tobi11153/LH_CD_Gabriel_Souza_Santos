@@ -22,7 +22,7 @@ modelo/: Contém o modelo treinado salvo em .pkl
 Após instalar as dependências, você pode carregar o modelo salvo e fazer previsões com novos dados.
 
 Exemplo de Uso
-```bash
+```python
 
 # Importando as bibliotecas necessárias
 import joblib
