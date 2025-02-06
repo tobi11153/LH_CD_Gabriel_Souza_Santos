@@ -8,9 +8,10 @@ Clone o repositório e instale as dependências:
 git clone https://github.com/seu-usuario/meu-projeto.git
 cd meu-projeto
 pip install -r requirements.txt
-
+```
 
 📊 Estrutura
+
 notebooks/: Contém notebooks com análise exploratória e modelagem
 relatorios/: Contém o relatório em PDF da análise estatística e EDA
 modelo/: Contém o modelo treinado salvo em .pkl
@@ -21,6 +22,7 @@ modelo/: Contém o modelo treinado salvo em .pkl
 Após instalar as dependências, você pode carregar o modelo salvo e fazer previsões com novos dados.
 
 Exemplo de Uso
+```bash
 
 # Importando as bibliotecas necessárias
 import joblib
@@ -52,7 +54,7 @@ nova_entrada = pd.DataFrame([{
 previsao = modelo_carregado.predict(nova_entrada)
 print(f"Preço previsto: ${previsao[0]:.2f}")
 
-
+```
 
 📌 Exemplo de Saída:
 Preço previsto: $246.10
